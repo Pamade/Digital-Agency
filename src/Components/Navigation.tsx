@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <div className="h-navHeight fixed flex w-screen bg-background">
+    <div className="h-navHeight fixed flex w-screen bg-background z-50">
       <div className="flex justify-between  w-9/12 mx-auto items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
