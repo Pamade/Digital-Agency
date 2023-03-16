@@ -3,6 +3,9 @@ import background from "../assets/AboutUs/bg.png";
 import shape1 from "../assets/AboutUs/shape1.png";
 import shape2 from "../assets/AboutUs/shape2.png";
 import shape3 from "../assets/AboutUs/shape3.png";
+import SectionName from "../ReusableComponents/SectionName";
+import SectionHeading from "../ReusableComponents/SectionHeading";
+import TextWithCircle from "../ReusableComponents/TextWithCircle";
 
 const BoxValues = [
   {
@@ -17,24 +20,20 @@ const BoxValues = [
 
 const AboutUs = () => {
   const displayBox = BoxValues.map(({ main, label }) => (
-    <div className="p-1 xsm:p-6 md:p-8 2xl:p-12">
+    <div key={main} className="p-1 xsm:p-6 md:p-8 2xl:p-12">
       <p className="font-bold text-xl xsm:text-2xl xl:text-4xl">{main}</p>
       <p className="text-sixth text-sm">{label}</p>
     </div>
   ));
 
   return (
-    <section className="pt-32 pb-12 bg-secondary ">
-      <div className="w-4/5 mx-auto max-w-[700px] lg:max-w-none">
+    <section className="pt-32 bg-customSectionBg ">
+      <div className="mainWidth max-w-[700px] lg:max-w-none">
         <div className="flex justify-between items-end">
-          <h3 className="text-sixth">ABOUT US</h3>
+          <SectionName name="ABOUT US" />
           <img src={shape3} alt="shape" className="w-20" />
         </div>
-        <div className="md:w-4/5  lg:w-3/5 ">
-          <h2 className="font-bold text-2xl my-6 md:text-3xl lg:text-4xl xl:text-5xl">
-            We Create Digital World Class Business Agency Marketplace
-          </h2>
-        </div>
+        <SectionHeading text="We Create Digital World Class Business Agency Marketplace" />
         <div className="py-8 lg:flex lg:justify-between">
           <div className="relative mb-24 max-w-[700px] lg:w-3/4">
             <img src={background} alt="background" className="z-10 relative" />
@@ -66,12 +65,7 @@ const AboutUs = () => {
               quae ab illo inventore veritatis et quasi architecto beatae vitae
               dicta sunt explicabo.
             </p>
-            <div className="relative cursor-pointer">
-              <div className="absolute w-12 h-12 rounded-full bg-customGray z-0 top-1/2 transform -translate-y-1/2 "></div>
-              <p className="z-10 relative text-fourth font-semibold ml-4 tracking-wider">
-                LEARN MORE
-              </p>
-            </div>
+            <TextWithCircle text="LEARN MORE" />
           </div>
         </div>
       </div>

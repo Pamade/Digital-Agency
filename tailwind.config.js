@@ -3,16 +3,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // primary: "#555511",
         secondary: "#222222",
         third: "#E3B27D",
         fourth: "#FFFFFF",
         fifth: "#CCCCCC",
         sixth: "#888888",
         background: "#111111",
+        customGray: "#333333",
       },
       backgroundColor: {
-        customGray: "#333333",
+        customSectionBg: "#181818",
       },
       spacing: {
         navHeight: "5rem",
