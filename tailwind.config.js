@@ -14,6 +14,9 @@ module.exports = {
       backgroundColor: {
         customSectionBg: "#181818",
       },
+      backgroundImage: {
+        contact: "url('/src/assets/Contact/bg.png')",
+      },
       spacing: {
         navHeight: "5rem",
       },
