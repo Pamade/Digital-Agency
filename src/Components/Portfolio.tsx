@@ -1,12 +1,8 @@
-import SectionHeading from "../ReusableComponents/SectionHeading";
-import SectionName from "../ReusableComponents/SectionName";
-import TextWithCircle from "../ReusableComponents/TextWithCircle";
-
 import arrow from "../assets/Portfolio/arrow.png";
 import arrowTop from "../assets/Portfolio/arrow-top.png";
 import people from "../assets/Portfolio/people.png";
 
-import SectionHeadingWithCircle from "../ReusableComponents/SectionHeadingWithCircle";
+import SectionHeadingWithDescription from "../ReusableComponents/SectionHeadingWithDescription";
 
 const list = [
   "Web & Mobile Development",
@@ -39,7 +35,7 @@ const Portfolio = () => {
   return (
     <section className="pt-32 pb-12 bg-customSectionBg">
       <div className="mainWidth">
-        <SectionHeadingWithCircle
+        <SectionHeadingWithDescription
           name="PORTFOLIO"
           mainDescription="We create places that
           connect, sustain & inspire"

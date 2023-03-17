@@ -11,7 +11,7 @@ import partner4 from "../assets/Header/partner4.png";
 import partner5 from "../assets/Header/partner5.png";
 import partner6 from "../assets/Header/partner6.png";
 
-import shape1 from "../assets/Header/shape1.png";
+import shape1 from "../assets/shape1.png";
 
 const achievments = [
   {
