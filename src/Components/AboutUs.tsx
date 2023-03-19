@@ -27,7 +27,7 @@ const AboutUs = () => {
   ));
 
   return (
-    <section className="pt-32 bg-customSectionBg ">
+    <section className="pt-32 bg-customSectionBg" id="about-us">
       <div className="mainWidth max-w-[700px] lg:max-w-none">
         <div className="flex justify-between items-end">
           <SectionName name="ABOUT US" />

@@ -32,6 +32,8 @@
   ::-webkit-scrollbar-thumb {
     @apply bg-third;
   }
-
+  li{
+    cursor: pointer;
+  }
 
 }

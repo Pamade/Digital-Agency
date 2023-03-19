@@ -19,7 +19,10 @@ const ArrowIcon = ({ icon }: { icon: string }) => {
 
 const Portfolio = () => {
   const displayList = list.map((item, index) => (
-    <li className="border-b-2 py-4 font-bold flex justify-between items-center lg:py-12">
+    <li
+      key={index}
+      className="border-b-2 py-4 font-bold flex justify-between items-center lg:py-12"
+    >
       <div className="flex items-center">
         <span className="mb-4 font-normal text-xs text-sixth 2xl:mb-14">
           0{index + 1}.
@@ -33,7 +36,7 @@ const Portfolio = () => {
   ));
 
   return (
-    <section className="pt-32 pb-12 bg-customSectionBg">
+    <section id="portfolio" className="pt-32 pb-12 bg-customSectionBg">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="PORTFOLIO"

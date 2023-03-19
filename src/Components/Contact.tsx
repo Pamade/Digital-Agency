@@ -3,7 +3,7 @@ import arrow from "../assets/Contact/arrow.png";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="flex justify-end pt-32 bg-customSectionBg relative">
         <div className="">
           <img src={img} alt="" />
@@ -20,8 +20,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        {/* </section> */}
       </div>
       <div className="pt-64 bg-customGray"></div>
     </div>

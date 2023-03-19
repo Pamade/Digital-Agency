@@ -24,7 +24,7 @@ const persons = [
 
 const Team = () => {
   const displayPersons = persons.map(({ name, role, img }) => (
-    <div>
+    <div key={name}>
       <img src={img} alt="person" className="" />
       <h5 className="mt-4 font-bold text-xl">{name}</h5>
       <p className="text-sm">{role}</p>
@@ -32,7 +32,7 @@ const Team = () => {
   ));
 
   return (
-    <section className="pt-32 pb-12 bg-customSectionBg">
+    <section id="team" className="pt-32 pb-12 bg-customSectionBg">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="OUR TEAM"

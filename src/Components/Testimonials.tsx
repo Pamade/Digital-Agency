@@ -36,7 +36,7 @@ const QuoteBox = ({ text, name, img }: Props) => (
 );
 const Testimonials = () => {
   return (
-    <section className="pt-32 pb-12 bg-customSectionBg">
+    <section id="testimonials" className="pt-32 pb-12 bg-customSectionBg">
       <div className="mainWidth relative">
         <img
           src={shape1}

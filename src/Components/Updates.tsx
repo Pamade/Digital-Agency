@@ -18,7 +18,7 @@ const UpdateBox = ({ type, date, value }: Props) => (
 
 const Updates = () => {
   return (
-    <section className="pt-32 pb-12 bg-customSectionBg">
+    <section id="updates" className="pt-32 pb-12 bg-customSectionBg">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="LATEST UPDATES"

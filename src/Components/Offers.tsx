@@ -77,7 +77,7 @@ const Offers = () => {
   ));
 
   return (
-    <section className="bg-customGray pt-32">
+    <section id="offers" className="bg-customGray pt-32">
       <div className="mainWidth">
         <div className="flex flex-col justify-between md:flex-row md:gap-0 md:flex-wrap">
           {displayOffers}
