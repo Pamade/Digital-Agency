@@ -12,7 +12,6 @@ module.exports = {
         orange: "#E3B27D",
         light: "#CCCCCC",
         gray: "#888888",
-        background: "#111111",
       },
       backgroundImage: {
         contact: "url('/src/assets/Contact/bg.png')",
