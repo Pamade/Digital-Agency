@@ -1,4 +1,3 @@
-import React from "react";
 import background from "../assets/Header/headerMain.png";
 import person1 from "../assets/Header/person1.png";
 import person2 from "../assets/Header/person2.png";
@@ -60,7 +59,7 @@ const Header = () => {
           <h1 className="text-5xl mb-4 lg:text-6xl xl:text-8xl xl:w-3/4 2xl:text-9xl ">
             Digital Agency Solution
           </h1>
-          <p className="text-fifth text-sm lg:text-xl lg:w-2/3">
+          <p className="text-light text-sm lg:text-xl lg:w-2/3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -70,7 +69,7 @@ const Header = () => {
             className="hidden lg:block absolute lg:-top-20 lg:-left-5  xl:-top-12 2xl:-top-8 "
           />
         </div>
-        <div className=" bg-secondary lg:w-1/2 ">
+        <div className=" bg-dark-200 lg:w-1/2 ">
           <div className="xsm:flex">
             <div className="relative mb-32 xsm:h-[500px] md:w-3/4 lg:h-full lg:mb-0">
               <img
@@ -119,7 +118,7 @@ const PeopleRegistered = () => {
       <div className="flex my-4">{displayPersons}</div>
       <div className="flex-col items-center mx-auto 2xl:ml-14">
         <p className="font-bold md:text-lg lg:text-sm">240 Business People</p>
-        <p className="text-fifth">Already registered</p>
+        <p className="text-light">Already registered</p>
       </div>
     </>
   );

@@ -49,7 +49,7 @@ const Offers = () => {
     <div key={name.first} className="py-6  md:p-8 md:w-1/2 xl:w-1/3 2xl:p-14">
       <div className="flex flex-col gap-6">
         <div className=" text-center">
-          <div className="outlined text-5xl  text-customGray xsm:text-6xl">
+          <div className="outlined text-5xl  text-dark-100 xsm:text-6xl">
             <div className="inline-block relative">
               <p>{name.first}</p>
               <img
@@ -60,7 +60,7 @@ const Offers = () => {
             </div>
           </div>
           <div className="flex relative justify-center items-center mt-4  xsm:mt-2">
-            <hr className="w-12 bg-fourth h-12r mr-4"></hr>
+            <hr className="w-12 bg-white h-12r mr-4"></hr>
             <p className="font-bold text-5xl">{name.second}</p>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Offers = () => {
   ));
 
   return (
-    <section id="offers" className="bg-customGray pt-32">
+    <section id="offers" className="bg-dark-100 pt-32">
       <div className="mainWidth">
         <div className="flex flex-col justify-between md:flex-row md:gap-0 md:flex-wrap">
           {displayOffers}

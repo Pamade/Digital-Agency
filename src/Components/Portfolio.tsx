@@ -24,7 +24,7 @@ const Portfolio = () => {
       className="border-b-2 py-4 font-bold flex justify-between items-center lg:py-12"
     >
       <div className="flex items-center">
-        <span className="mb-4 font-normal text-xs text-sixth 2xl:mb-14">
+        <span className="mb-4 font-normal text-xs text-gray 2xl:mb-14">
           0{index + 1}.
         </span>
         <span className="ml-2 md:text-4xl lg:text-6xl 2xl:text-7xl">
@@ -36,7 +36,7 @@ const Portfolio = () => {
   ));
 
   return (
-    <section id="portfolio" className="pt-32 pb-12 bg-customSectionBg">
+    <section id="portfolio" className="pt-32 pb-12 bg-dark-300">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="PORTFOLIO"

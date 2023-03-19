@@ -32,7 +32,7 @@ const Team = () => {
   ));
 
   return (
-    <section id="team" className="pt-32 pb-12 bg-customSectionBg">
+    <section id="team" className="pt-32 pb-12 bg-dark-300">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="OUR TEAM"

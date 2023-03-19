@@ -17,7 +17,7 @@ const ArrowOutlinedByCircle = ({ img }: { img: string }) => (
   <img
     src={img}
     alt="arrow"
-    className="p-4 border-2 rounded-full cursor-pointer hover:bg-sixth transition 0.6s"
+    className="p-4 border-2 rounded-full cursor-pointer hover:bg-gray transition 0.6s"
   />
 );
 
@@ -35,7 +35,7 @@ const SectionHeadingWithDescription = ({
         <SectionHeading text={mainDescription} />
       </div>
       <div className="md:w-1/3  md:flex flex-col justify-between">
-        <p className="mb-12 text-sixth lg:text-xl">{secondDescription}</p>
+        <p className="mb-12 text-gray lg:text-xl">{secondDescription}</p>
         {circleText && <TextWithCircle text={circleText} />}
         {showArrows && (
           <div className="self-end flex gap-2">

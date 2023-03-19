@@ -14,7 +14,7 @@ interface Props {
 
 const QuoteBox = ({ text, name, img }: Props) => (
   <div className="[max-width:569px]">
-    <blockquote className="border-l-4 border-l-third border-b-6">
+    <blockquote className="border-l-4 border-l-orange border-b-6">
       <p className="ml-4 lg:text-2xl">{text}</p>
     </blockquote>
     <img src={border} alt="border" className="my-2 lg:my-6" />
@@ -23,7 +23,7 @@ const QuoteBox = ({ text, name, img }: Props) => (
       <div>
         <div>
           <p className="font-bold text-2xl">{name}</p>
-          <p className="text-third">CUSTOMER</p>
+          <p className="text-orange">CUSTOMER</p>
         </div>
       </div>
       <img
@@ -36,7 +36,7 @@ const QuoteBox = ({ text, name, img }: Props) => (
 );
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="pt-32 pb-12 bg-customSectionBg">
+    <section id="testimonials" className="pt-32 pb-12 bg-dark-300">
       <div className="mainWidth relative">
         <img
           src={shape1}

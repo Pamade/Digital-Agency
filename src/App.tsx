@@ -10,7 +10,7 @@ import Updates from "./Components/Updates";
 import Footer from "./Components/Footer";
 const App = () => {
   return (
-    <div className="bg-background text-fourth overflow-x-hidden">
+    <div className="bg-dark-400 text-white overflow-x-hidden">
       <Navigation />
       <Header />
       <AboutUs />

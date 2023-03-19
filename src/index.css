@@ -26,11 +26,11 @@
     @apply h-1 w-1;    
   }
   ::-webkit-scrollbar-track {
-    @apply bg-secondary;
+    @apply bg-dark-200;
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-third;
+    @apply bg-orange;
   }
   li{
     cursor: pointer;

@@ -3,16 +3,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        secondary: "#222222",
-        third: "#E3B27D",
-        fourth: "#FFFFFF",
-        fifth: "#CCCCCC",
-        sixth: "#888888",
+        dark: {
+          100: "#333333",
+          200: "#222222",
+          300: "#181818",
+          400: "#111111",
+        },
+        orange: "#E3B27D",
+        light: "#CCCCCC",
+        gray: "#888888",
         background: "#111111",
-        customGray: "#333333",
-      },
-      backgroundColor: {
-        customSectionBg: "#181818",
       },
       backgroundImage: {
         contact: "url('/src/assets/Contact/bg.png')",

@@ -9,8 +9,8 @@ interface Props {
 const UpdateBox = ({ type, date, value }: Props) => (
   <div className="md:w-2/5 xl:my-6">
     <div className="text-sm mb-2">
-      <span className="text-sixth">{type} |</span>
-      <span className="text-third"> {date}</span>
+      <span className="text-gray">{type} |</span>
+      <span className="text-orange"> {date}</span>
     </div>
     <h5 className="text-4xl font-bold xl:text-5xl">{value}</h5>
   </div>
@@ -18,7 +18,7 @@ const UpdateBox = ({ type, date, value }: Props) => (
 
 const Updates = () => {
   return (
-    <section id="updates" className="pt-32 pb-12 bg-customSectionBg">
+    <section id="updates" className="pt-32 pb-12 bg-dark-300">
       <div className="mainWidth">
         <SectionHeadingWithDescription
           name="LATEST UPDATES"

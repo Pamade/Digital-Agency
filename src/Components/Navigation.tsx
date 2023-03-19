@@ -27,7 +27,7 @@ const Navigation = () => {
     <li
       key={label}
       onClick={() => scrollIntoView(path)}
-      className="text-white text-sm md:hover:text-third md:text-md border-b-2 font-semibold md:border-none lg:text-lg"
+      className="text-white text-sm md:hover:text-orange md:text-md border-b-2 font-semibold md:border-none lg:text-lg"
     >
       {label}
     </li>
@@ -35,7 +35,7 @@ const Navigation = () => {
 
   return (
     <>
-      <div className="h-navHeight fixed flex w-screen bg-background z-50 border-b-2 border-third">
+      <div className="h-navHeight fixed flex w-screen bg-dark-400 z-50 border-b-2 border-orange">
         <div className="flex justify-between  mainWidth mx-auto items-center">
           {!isNavOpen ? (
             <svg
@@ -77,7 +77,7 @@ const Navigation = () => {
           </ul>
         </div>
         {isNavOpen && (
-          <ul className="absolute top-full w-9/12 bg-third left-1/2 -translate-x-1/2 md:hidden z-60 flex p-2 flex-col gap-2">
+          <ul className="absolute top-full w-9/12 bg-orange left-1/2 -translate-x-1/2 md:hidden z-60 flex p-2 flex-col gap-2">
             {displayLinks}
           </ul>
         )}
